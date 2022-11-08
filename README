@@ -1,0 +1,22 @@
+The environment required:
+    python 3.6.13
+    tensorflow 1.14.0
+    matplotlib
+    pyts
+    numpy
+    sklearn
+
+This repository contains a demo of train and test in the UCR dataset. 
+
+First,  in the 'turning_Hyperpara.py'
+    Set the dataset name you want to use.
+    Set the epoch of training
+    Set the path to store and restore the models
+    Set whether you want to train or test on the dataset(by call the functions in the file)
+
+To train and test, you can run the command:
+    python turning_Hyperpara.py
+
+There tow pretrained models in the repository:
+    /Model: 300-epoch trained model based on the 'ECG200' dataset
+    /Model2: 50-epoch trained model based on the 'Wafer' dataset
